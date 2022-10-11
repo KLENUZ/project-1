@@ -1,0 +1,179 @@
+@media (max-width:1000px){
+    .container{
+        max-width: 96%;
+        margin: 0 auto;
+    }
+    .header .navbar{
+        display: none;
+    }
+    .header-left{
+        margin-left: -15;
+        width: 50%;
+    }
+    
+    .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .toogle{
+        display: block;
+        padding-left: 10px;
+    }
+    .responsive {
+        position: fixed;
+        display: block !important;
+        z-index: 1;
+        top: 0;
+        height: 100vh;
+        left: 0;
+        right: 200px;
+        text-align: center;
+        background-color: #58a9a5f1;
+        bottom: 0;
+        width: 35%;
+      }
+    
+      .responsive li {
+        width: 100%;
+        padding-top: 25px;
+      }
+      .responsive a:hover{
+        color: white;
+      }
+
+      .sec-1 .container{
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .sec-1__right{
+        width: 100%;
+      }
+      .sec-1__left{
+        width: 100%;
+      }
+
+      .sec-1__left h2{
+        font-size: 35px;
+      }
+
+      .sec-2 .container{
+        flex-direction: column;
+        padding-top: 750px;
+        padding-left: 10px;
+        padding-right: 10px
+      }
+      .sec-3 .container{
+        flex-direction: column;
+       justify-content: center;
+      }
+      .sec-3__left {
+        max-width: 95%;
+        overflow: hidden;
+      }
+      .sec-3__right{
+        width: 95%;
+      }
+      .sec-4 .container{
+        flex-direction: column;
+        padding: 10px;
+      }
+      .sec-4__left{
+        max-width: 100%;
+        overflow: hidden;
+      }
+      .sec-4__right{
+        align-items: center;
+      }
+      .our-projects{      
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .sec-6__bottom{
+        flex-direction: column;
+      }
+      .sec-7 .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 5px;
+      }
+      .sec-7__left img{
+        max-width: 90%;
+      }
+      .sec-7__numbers{
+        flex-direction: column;
+        align-items: center;
+      }
+      .sec-7__abouts{
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin: 0;
+      }
+
+      footer .container{
+        flex-direction: column;
+        max-width: 700px;
+      }
+}
+
+@media (max-width:500px)
+{
+    .container{
+        max-width: 490px;
+        margin: 0 auto;
+    }
+
+    .toogle img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .header{
+        width: 100%;
+        height: 120px;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .responsive{
+        width: 40%;
+        justify-content: flex-start;
+    }
+    .header .container{
+        padding-right: 0px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+
+    .header-right a{
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+    .sec-1__right{
+        max-width: 500px;
+    }
+    .sec-2 .container{
+        margin-top: -50px;
+    }
+    .our-projects h3{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .our-projects p{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .sec-6__top h2{
+        font-size: 30px;
+        width: 80%;
+    }
+}
